@@ -27,55 +27,7 @@ public class Pedido {
         this.sucursalSecundaria = sucursalSecundaria;
         
     }
-    
-    public String getNombreMedicamento() {
-        return nombreMedicamento;
-    }
-
-    public void setNombreMedicamento(String nombreMedicamento) {
-        this.nombreMedicamento = nombreMedicamento;
-    }
-
-    public String getTipoMedicamento() {
-        return tipoMedicamento;
-    }
-
-    public void setTipoMedicamento(String tipoMedicamento) {
-        this.tipoMedicamento = tipoMedicamento;
-    }
-
-    public int getCantidad() {
-        return cantidad;
-    }
-
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
-    }
-
-    public String getDistribuidor() {
-        return distribuidor;
-    }
-
-    public void setDistribuidor(String distribuidor) {
-        this.distribuidor = distribuidor;
-    }
-
-    public boolean isSucursalPrincipal() {
-        return sucursalPrincipal;
-    }
-
-    public void setSucursalPrincipal(boolean sucursalPrincipal) {
-        this.sucursalPrincipal = sucursalPrincipal;
-    }
-
-    public boolean isSucursalSecundaria() {
-        return sucursalSecundaria;
-    }
-
-    public void setSucursalSecundaria(boolean sucursalSecundaria) {
-        this.sucursalSecundaria = sucursalSecundaria;
-    }
-    
+        
     public String getResumenPedido() {
         StringBuilder resumen = new StringBuilder();
         resumen.append(cantidad).append(" unidades del ").append(tipoMedicamento)
