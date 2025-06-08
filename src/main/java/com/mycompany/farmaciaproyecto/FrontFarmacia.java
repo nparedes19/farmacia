@@ -77,6 +77,11 @@ public class FrontFarmacia extends javax.swing.JFrame {
 
         buttonGroup1.add(Cofarm);
         Cofarm.setText("Cofarm");
+        Cofarm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CofarmActionPerformed(evt);
+            }
+        });
 
         buttonGroup1.add(Empsephar);
         Empsephar.setText("Empsephar");
@@ -258,6 +263,10 @@ public class FrontFarmacia extends javax.swing.JFrame {
         FarmaciaPrincipal.setSelected(false);
         FarmaciaSecundaria.setSelected(false);
     }//GEN-LAST:event_BorrarActionPerformed
+
+    private void CofarmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CofarmActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CofarmActionPerformed
 
     /**
      * @param args the command line arguments

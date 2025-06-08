@@ -51,9 +51,6 @@ public class ControladorPedido {
             return "Por favor seleccione almenos una farmacia";
         }
         
-        return "Pedido verificado";
-        
+        return "Pedido verificado"; 
     }
-                
-
 }
